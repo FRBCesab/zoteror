@@ -1,3 +1,4 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # zoteror <img src="man/figures/package-sticker.png" align="right" style="float:right; height:120px;"/>
@@ -9,40 +10,42 @@ Check](https://github.com/FRBCesab/zoteror/actions/workflows/R-CMD-check.yaml/ba
 [![Website](https://github.com/FRBCesab/zoteror/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/FRBCesab/zoteror/actions/workflows/pkgdown.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/zoteror)](https://CRAN.R-project.org/package=zoteror)
-[![License: GPL (&gt;=
+[![License: GPL (\>=
 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
-[![LifeCycle](https://img.shields.io/badge/lifecycle-experimental-orange)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![Project Status:
-Concept](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
-[![Dependencies](https://img.shields.io/badge/dependencies-0/0-brightgreen?style=flat)](#)
+[![Dependencies](https://img.shields.io/badge/dependencies-3/27-green?style=flat)](#)
 <!-- badges: end -->
 
-The goal of the R package `zoteror` is to **{{ PLEASE ADD A FEW LINES
-}}**
+The goal of the R package `zoteror` is to retrieve references metadata
+stored in the Zotero local database (SQLite file).
 
 ## Installation
 
 You can install the development version from
 [GitHub](https://github.com/) with:
 
-    # install.packages("remotes")
-    remotes::install_github("FRBCesab/zoteror")
+``` r
+# install.packages("remotes")
+remotes::install_github("FRBCesab/zoteror")
+```
 
 Then you can attach the package `zoteror`:
 
-    library("zoteror")
+``` r
+library("zoteror")
+```
 
 ## Overview
 
-Here is an overview of `zoteror` content: **{{ PLEASE ADD A FEW LINES
-}}**
+The package `zoteror` only contains the function
+[`get_zotero_data()`](https://frbcesab.github.io/zoteror/reference/get_zotero_data.html)
+to retrieve references metadata from the Zotero local database.
 
 ## Citation
 
 Please cite this package as:
 
-> Casajus Nicolas (2022) zoteror: An R package to **{{ TITLE }}**. R
-> package version 0.0.0.9000.
+> Casajus Nicolas (2022) zoteror: An R package to handle Zotero local
+> database. R package version 0.0.1.
 
 ## Code of Conduct
 

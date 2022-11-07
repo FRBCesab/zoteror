@@ -2,9 +2,9 @@ citHeader("To cite zoteror in publications use:")
 
 bibentry(
   bibtype = "Manual",
-  title   = "zoteror: {An} {R} package to ...",
+  title   = "zoteror: {An} {R} package to handle Zotero local database",
   author  = c(person("Casajus Nicolas")),
   year    = "2022",
-  note    = "R package version 0.0.0.9000",
+  note    = "R package version 0.0.1",
   url     = "https://github.com/FRBCesab/zoteror"
 )

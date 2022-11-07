@@ -1,22 +1,26 @@
 Package: zoteror
 Type: Package
-Title: The Title of the Project
-Version: 0.0.0.9000
+Title: Handle Zotero Local Database
+Version: 0.0.1
 Authors@R: c(
     person(given   = "Nicolas",
            family  = "Casajus",
            role    = c("aut", "cre", "cph"),
            email   = "nicolas.casajus@fondationbiodiversite.fr",
            comment = c(ORCID = "0000-0002-5537-5294")))
-Description: A paragraph providing a full description of the project (on 
-    several lines...)
+Description: Makes a connection to the (local) Zotero database (SQLite) to 
+    extract bibliographic references metadata.
 URL: https://github.com/FRBCesab/zoteror
 BugReports: https://github.com/FRBCesab/zoteror/issues
 License: GPL (>= 2)
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
-VignetteBuilder: knitr
+Imports: 
+    DBI,
+    RSQLite,
+    tidyr
 Suggests: 
     knitr,
     rmarkdown
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+VignetteBuilder: knitr

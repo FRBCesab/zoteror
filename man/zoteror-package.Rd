@@ -4,9 +4,9 @@
 \name{zoteror-package}
 \alias{zoteror}
 \alias{zoteror-package}
-\title{zoteror: The Title of the Project}
+\title{zoteror: Access to ZOTERO Database}
 \description{
-A paragraph providing a full description of the project (on several lines...)
+Makes a connection to the (local) ZOTERO database (SQLite) to extract bibliographic references metadata.
 }
 \seealso{
 Useful links:
