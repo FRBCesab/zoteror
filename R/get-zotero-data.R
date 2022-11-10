@@ -98,7 +98,8 @@ get_zotero_data <- function(path = "~/Documents/Zotero") {
   items_notes <- get_items_notes(conn)
   items_notes <- items_notes[grep("^pubid", items_notes$"note"), ]
   
-  items <- merge(items, items_notes, by = "item_id", all = FALSE)
+  items <- merge(items, items_notes, by = "item_id", all.x = TRUE, 
+                 all.y = FALSE)
   
   
   ## Get creators ----
