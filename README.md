@@ -44,7 +44,7 @@ to retrieve references metadata from the Zotero local database.
 
 Please cite this package as:
 
-> Casajus Nicolas (2022) zoteror: An R package to handle Zotero local
+> Casajus Nicolas (2023) zoteror: An R package to handle Zotero local
 > database. R package version 0.0.1.
 
 ## Code of Conduct
