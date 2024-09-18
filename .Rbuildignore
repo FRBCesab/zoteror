@@ -6,3 +6,4 @@
 ^README\.html$
 ^\.github$
 ^_pkgdown\.yaml$
+^CONTRIBUTING\.md$

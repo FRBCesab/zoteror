@@ -4,9 +4,9 @@
 \name{zoteror-package}
 \alias{zoteror}
 \alias{zoteror-package}
-\title{zoteror: Access to ZOTERO Database}
+\title{zoteror: Handle Zotero Local Database}
 \description{
-Makes a connection to the (local) ZOTERO database (SQLite) to extract bibliographic references metadata.
+Makes a connection to the (local) Zotero database (SQLite) to extract bibliographic references metadata.
 }
 \seealso{
 Useful links:
@@ -17,7 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Nicolas Casajus \email{nicolas.casajus@fondationbiodiversite.fr} (\href{https://orcid.org/0000-0002-5537-5294}{ORCID}) [copyright holder]
+\strong{Maintainer}: Nicolas Casajus \email{rdev.nc@gmail.com} (\href{https://orcid.org/0000-0002-5537-5294}{ORCID}) [copyright holder]
 
 }
 \keyword{internal}

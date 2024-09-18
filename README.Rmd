@@ -20,11 +20,24 @@ zoteror <img src="man/figures/package-sticker.png" align="right" style="float:ri
 <!-- badges: start -->
 [![R CMD Check](https://github.com/FRBCesab/zoteror/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/FRBCesab/zoteror/actions/workflows/R-CMD-check.yaml)
 [![Website](https://github.com/FRBCesab/zoteror/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/FRBCesab/zoteror/actions/workflows/pkgdown.yaml)
-[![CRAN status](https://www.r-pkg.org/badges/version/zoteror)](https://CRAN.R-project.org/package=zoteror)
 [![License: GPL (>= 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
-[![Dependencies](https://img.shields.io/badge/dependencies-3/27-green?style=flat)](#)
 <!-- badges: end -->
 
+
+
+## Table of contents
+
+<p align="left">
+  • <a href="#overview">Overview</a><br>
+  • <a href="#installation">Installation</a><br>
+  • <a href="#get-started">Get started</a><br>
+  • <a href="#citation">Citation</a><br>
+  • <a href="#contributing">Contributing</a>
+</p>
+
+
+
+## Overview
 
 The goal of the R package `zoteror` is to retrieve references metadata stored in the 
 Zotero local database (SQLite file).
@@ -48,7 +61,7 @@ library("zoteror")
 
 
 
-## Overview
+## Get started
 
 The package `zoteror` only contains the function [`get_zotero_data()`](https://frbcesab.github.io/zoteror/reference/get_zotero_data.html)
 to retrieve references metadata from the Zotero local database.
@@ -59,12 +72,15 @@ to retrieve references metadata from the Zotero local database.
 Please cite this package as: 
 
 > Casajus Nicolas (`r format(Sys.Date(), "%Y")`) zoteror: An R package to 
-handle Zotero local database. R package version 0.0.1.
+handle Zotero local database. R package version 0.0.1. <https://github.com/FRBCesab/zoteror>
 
 
 
-## Code of Conduct
+## Contributing
+
+All types of contributions are encouraged and valued. For more information, 
+check out our [Contributor Guidelines](https://github.com/FRBCesab/zoteror/blob/main/CONTRIBUTING.md).
 
 Please note that the `zoteror` project is released with a 
-[Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). 
+[Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). 
 By contributing to this project, you agree to abide by its terms.

@@ -6,7 +6,7 @@ Authors@R: c(
     person(given   = "Nicolas",
            family  = "Casajus",
            role    = c("aut", "cre", "cph"),
-           email   = "nicolas.casajus@fondationbiodiversite.fr",
+           email   = "rdev.nc@gmail.com",
            comment = c(ORCID = "0000-0002-5537-5294")))
 Description: Makes a connection to the (local) Zotero database (SQLite) to 
     extract bibliographic references metadata.
@@ -22,5 +22,5 @@ Suggests:
     knitr,
     rmarkdown
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.3.2
 VignetteBuilder: knitr
