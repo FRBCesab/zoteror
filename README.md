@@ -24,8 +24,14 @@ Check](https://github.com/FRBCesab/zoteror/actions/workflows/R-CMD-check.yaml/ba
 
 ## Overview
 
-The goal of the R package `zoteror` is to retrieve references metadata
-stored in the Zotero local database (SQLite file).
+The goal of the R package `zoteror` is to connect to the Zotero SQLite
+database (local only) and to extract bibliographic references metadata
+as a `data.frame`.
+
+User can:
+
+- select which fields are returned
+- filter by type of documents (article, book, book chapter, etc.)
 
 ## Installation
 
