@@ -36,7 +36,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' references <- get_zotero_data()
+#' references <- zoteror::get_zotero_data()
 #' }
 
 get_zotero_data <- function(path = "~/zotero") {

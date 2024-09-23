@@ -4,7 +4,7 @@
 \alias{get_zotero_data}
 \title{Retrieve data from Zotero database}
 \usage{
-get_zotero_data(path = "~/Documents/Zotero")
+get_zotero_data(path = "~/zotero")
 }
 \arguments{
 \item{path}{a \code{character} of length 1. The folder containing the Zotero
@@ -44,6 +44,6 @@ Retrieves references metadata from Zotero local database (SQLite).
 }
 \examples{
 \dontrun{
-references <- get_zotero_data()
+references <- zoteror::get_zotero_data()
 }
 }
