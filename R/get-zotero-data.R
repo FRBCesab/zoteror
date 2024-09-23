@@ -59,8 +59,15 @@ get_zotero_data <- function(path = "~/zotero") {
   groups_id      <- get_groups_id(conn)
   collections_id <- get_collections_id(conn)
   
-  zotero <- merge(libraries_id, groups_id, by = "library_id", all = FALSE)
-  zotero <- merge(zotero, collections_id, by = "library_id", all = FALSE)
+  zotero <- merge(libraries_id, groups_id, by = "library_id", all = TRUE)
+  zotero <- merge(zotero, collections_id, by = "library_id", all = TRUE)
+  
+  
+  ## Add user library ----
+  
+  zotero$"group_name" <- ifelse(is.na(zotero$"group_name"), 
+                                "Main", 
+                                zotero$"group_name")
   
   
   ## Get items data ----
@@ -75,7 +82,6 @@ get_zotero_data <- function(path = "~/zotero") {
   items_data_id     <- get_items_data_id(conn)
   items_data_values <- get_items_data_values(conn)
   
-  items <- merge(items_data_id, fields_id, by = "field_id", all = FALSE)
   items <- merge(items_data_id, fields_id, by = "field_id", all = FALSE)
   items <- merge(items, items_data_values, by = "value_id", all = FALSE)
   items <- items[ , c("item_id", "field_name", "value")]
