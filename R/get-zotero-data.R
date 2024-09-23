@@ -39,7 +39,7 @@
 #' references <- get_zotero_data()
 #' }
 
-get_zotero_data <- function(path = "~/Documents/Zotero") {
+get_zotero_data <- function(path = "~/zotero") {
   
   ## Connect to database ----
   
