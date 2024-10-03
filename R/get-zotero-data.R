@@ -140,6 +140,8 @@ get_zotero_data <- function(path = "~/zotero") {
                  "abstract", "volume", "issue", "pages", "publisher", "place", 
                  "institution", "doi", "url", "note")
   
+  col_order <- col_order[col_order %in% colnames(items)]
+  
   items <- items[ , col_order]
   
   
