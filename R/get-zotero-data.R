@@ -137,8 +137,8 @@ get_zotero_data <- function(path = "~/zotero") {
   
   col_order <- c("item_id", "library_type", "group", "collection", "category", 
                  "year", "title", "author", "journal", "book_title", "editor", 
-                 "abstract", "volume", "issue", "pages", "publisher", "place", 
-                 "institution", "doi", "url", "note")
+                 "abstract", "volume", "issue", "pages", "num_pages", 
+                 "publisher", "place", "institution", "doi", "url", "note")
   
   col_order <- col_order[col_order %in% colnames(items)]
   
